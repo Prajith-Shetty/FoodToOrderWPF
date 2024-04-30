@@ -1,0 +1,20 @@
+﻿FoodToOrderWPFApp
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Prajith Shetty\source\repos\FoodToOrderWPFApp\FoodToOrderWPFApp\obj\Debug\net8.0-windows\
+FoodToOrderWPFApp
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\Prajith Shetty\source\repos\FoodToOrderWPFApp\FoodToOrderWPFApp\App.xaml
+12-962347688
+
+24-1357023114
+242-217078553
+AddRestaurantWindow.xaml;adminDashboardWindow.xaml;BillWindow.xaml;Controls\QuantityControl.xaml;customerDashboardWindow.xaml;DeleteRestaurantWindow.xaml;DishesWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RestaurantsWindow.xaml;UpdateRestaurantWindow.xaml;ViewRestaurantWindow.xaml;
+
+True
+

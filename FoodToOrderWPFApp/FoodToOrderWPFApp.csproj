@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Burger.jfif" />
+    <None Remove="Images\Chicken Biriyani.jfif" />
+    <None Remove="Images\Chicken Kebab Burger.jfif" />
+    <None Remove="Images\Chicken Roast.jfif" />
+    <None Remove="Images\Chicken Tandoori.jfif" />
+    <None Remove="Images\Chicken Wings.jfif" />
+    <None Remove="Images\Crab Curry.jfif" />
+    <None Remove="Images\Crispy Chicken.jfif" />
+    <None Remove="Images\default.jfif" />
+    <None Remove="Images\delete.png" />
+    <None Remove="Images\dishImgForLogin.jpg" />
+    <None Remove="Images\dishImgForLogin2.jpg" />
+    <None Remove="Images\Dosa.jfif" />
+    <None Remove="Images\edit.png" />
+    <None Remove="Images\Fries.jfif" />
+    <None Remove="Images\Kadai Chicken.jfif" />
+    <None Remove="Images\Kadai Paneer.jfif" />
+    <None Remove="Images\login page ref img.jpg" />
+    <None Remove="Images\mail.png" />
+    <None Remove="Images\Masala McEgg Burger.jfif" />
+    <None Remove="Images\McAloo Tikki Burger.jfif" />
+    <None Remove="Images\McFlurry Oreo.jfif" />
+    <None Remove="Images\Mutton Pepper Fry.jfif" />
+    <None Remove="Images\Mutton Rice Combo.jfif" />
+    <None Remove="Images\Pizza.jfif" />
+    <None Remove="Images\Plain Rice.jfif" />
+    <None Remove="Images\Prawn Curry.jfif" />
+    <None Remove="Images\Prawn Fry.jfif" />
+    <None Remove="Images\Prawns Curry.jfif" />
+    <None Remove="Images\pwd.png" />
+    <None Remove="Images\Special Combo.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\default.jfif" />
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\edit.png" />
+    <Resource Include="Images\Kadai Chicken.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build" Version="17.9.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Burger.jfif" />
+    <Resource Include="Images\Chicken Biriyani.jfif" />
+    <Resource Include="Images\Chicken Kebab Burger.jfif" />
+    <Resource Include="Images\Chicken Roast.jfif" />
+    <Resource Include="Images\Chicken Tandoori.jfif" />
+    <Resource Include="Images\Chicken Wings.jfif" />
+    <Resource Include="Images\Crab Curry.jfif" />
+    <Resource Include="Images\Crispy Chicken.jfif" />
+    <Resource Include="Images\dishImgForLogin.jpg" />
+    <Resource Include="Images\Dosa.jfif" />
+    <Resource Include="Images\Fries.jfif" />
+    <Resource Include="Images\Kadai Paneer.jfif" />
+    <Resource Include="Images\mail.png" />
+    <Resource Include="Images\Masala McEgg Burger.jfif" />
+    <Resource Include="Images\McAloo Tikki Burger.jfif" />
+    <Resource Include="Images\McFlurry Oreo.jfif" />
+    <Resource Include="Images\Mutton Pepper Fry.jfif" />
+    <Resource Include="Images\Mutton Rice Combo.jfif" />
+    <Resource Include="Images\Pizza.jfif" />
+    <Resource Include="Images\Plain Rice.jfif" />
+    <Resource Include="Images\Prawn Curry.jfif" />
+    <Resource Include="Images\Prawn Fry.jfif" />
+    <Resource Include="Images\Prawns Curry.jfif" />
+    <Resource Include="Images\pwd.png" />
+    <Resource Include="Images\Special Combo.jfif" />
+  </ItemGroup>
+
+</Project>

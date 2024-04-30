@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\customerdashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\customerdashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\customerdashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\customerdashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\disheswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\disheswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\disheswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\disheswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\controls\\quantitycontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\controls\\quantitycontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|c:\\users\\prajith shetty\\source\\repos\\foodtoorderwpfapp\\foodtoorderwpfapp\\controls\\quantitycontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B511-7041-4215-B93E-4D42B60520C6}|FoodToOrderWPFApp\\FoodToOrderWPFApp.csproj|solutionrelative:foodtoorderwpfapp\\controls\\quantitycontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\LoginWindow.xaml",
+              "RelativeToolTip": "FoodToOrderWPFApp\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T07:40:20.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\App.xaml",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\App.xaml",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\App.xaml",
+              "RelativeToolTip": "FoodToOrderWPFApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T07:35:32.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "customerDashboardWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\customerDashboardWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\customerDashboardWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\customerDashboardWindow.xaml.cs",
+              "RelativeToolTip": "FoodToOrderWPFApp\\customerDashboardWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:34:32.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuantityControl.xaml",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\Controls\\QuantityControl.xaml",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\Controls\\QuantityControl.xaml",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\Controls\\QuantityControl.xaml",
+              "RelativeToolTip": "FoodToOrderWPFApp\\Controls\\QuantityControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T07:33:49.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DishesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\DishesWindow.xaml",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\DishesWindow.xaml",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\DishesWindow.xaml",
+              "RelativeToolTip": "FoodToOrderWPFApp\\DishesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T07:25:13.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuantityControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\Controls\\QuantityControl.xaml.cs",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\Controls\\QuantityControl.xaml.cs",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\Controls\\QuantityControl.xaml.cs",
+              "RelativeToolTip": "FoodToOrderWPFApp\\Controls\\QuantityControl.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:24:50.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "customerDashboardWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\customerDashboardWindow.xaml",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\customerDashboardWindow.xaml",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\customerDashboardWindow.xaml",
+              "RelativeToolTip": "FoodToOrderWPFApp\\customerDashboardWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T07:21:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DishesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\DishesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\DishesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\DishesWindow.xaml.cs",
+              "RelativeToolTip": "FoodToOrderWPFApp\\DishesWindow.xaml.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAIwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:17:01.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FoodToOrderWPFApp\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Prajith Shetty\\source\\repos\\FoodToOrderWPFApp\\FoodToOrderWPFApp\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "FoodToOrderWPFApp\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAvwHgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:06:37.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

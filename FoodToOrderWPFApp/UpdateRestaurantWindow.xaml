@@ -1,0 +1,287 @@
+﻿<Window x:Class="FoodToOrderWPFApp.UpdateRestaurantWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodToOrderWPFApp"
+        mc:Ignorable="d"
+        Title="UpdateRestaurantWindow" Height="800" Width="1000" Top="100" Left="400">
+    <StackPanel>
+        <TextBlock Grid.Row="0"
+   HorizontalAlignment="Center" 
+   TextWrapping="Wrap" 
+   Text="FoodToOrder App"
+   FontSize="26" 
+   VerticalAlignment="Top" 
+   Height="auto"
+   Width="auto" 
+   Margin="0 20 0 20"
+           Foreground="Green"/>
+
+
+        <DataGrid Name="dg_rests"
+                HorizontalAlignment="Center"
+                AutoGenerateColumns="False"
+            CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding RestaurantName}" Header="Restaurant Name" />
+                <DataGridCheckBoxColumn   Binding="{Binding Open}" Header="Open"/>
+                <DataGridTextColumn Binding="{Binding UserId}" Header="UserId" />
+
+
+                <DataGridTemplateColumn Header="Update?">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="EditRestaurantBtn_Click" Background="LightGreen">
+                                <Image Source="Images/edit.png" Height="20" Width="20"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid x:Name="grid_updRestDet"
+            HorizontalAlignment="Center" Margin="0 30 0 0"
+              Visibility="Collapsed">
+            
+             
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock 
+                
+                 Grid.Row="0" Grid.Column="0"
+                 Text="Restaurant Name"
+                 FontSize="12"
+                 FontWeight="Medium"/>
+
+            <TextBox
+               
+                Name="upd_restName" Grid.Row="1" Grid.Column="0"/>
+
+            <TextBlock
+               
+                
+                Grid.Row="0" Grid.Column="1"
+                Text="Open"
+                FontSize="12"
+                FontWeight="Medium" 
+                Margin="20 0 20 0"/>
+            <CheckBox 
+                x:Name="upd_restOpen"
+                HorizontalAlignment="Center"
+                Grid.Row="1" Grid.Column="1"/>
+            <TextBlock 
+                
+                
+                Grid.Row="0" Grid.Column="2"
+                Text="UserId"
+                FontSize="12"
+                FontWeight="Medium"
+                />
+            <TextBox 
+               
+                Name="upd_userId" Grid.Row="1" Grid.Column="2"/>
+            <Button  Grid.Column="3"  Grid.RowSpan="2"
+                x:Name="btn_updDet"
+                Style="{DynamicResource ResourceKey=RoundButton}"
+                Content="Update"
+                Height="30"
+                Width="60"
+                Background="Orange"
+                Click="updRestDet_Click"
+                     Margin="20 0 0 0"/>
+        </Grid>
+        
+        <DataGrid Name="dg_upd_dishes" Visibility="Collapsed"
+              HorizontalAlignment="Center"
+              AutoGenerateColumns="False"
+          CanUserAddRows="False" Margin="0 20 0 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding DishName}" Header="Dish Name" />
+                <DataGridCheckBoxColumn   Binding="{Binding Available}" Header="Open"/>
+                <DataGridTextColumn Binding="{Binding Price}" Header="Price" />
+                <DataGridTemplateColumn Header="Image">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding ImagePath}" Width="50" Height="50"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Update?">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="UpdateDishBtn_Click" Background="CadetBlue">
+                                <Image Source="Images/edit.png" Height="20" Width="20"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Delete?">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="DeleteDishBtn_Click" Background="PaleVioletRed">
+                                <Image Source="Images/delete.png" Height="20" Width="20"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!--<DataGridTemplateColumn Header="Add to Cart">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Add" Click="AddToCartButton_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid x:Name="grid_updDishDet"
+    HorizontalAlignment="Center" Margin="0 30 0 0" Visibility="Collapsed">
+         
+     
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock 
+       
+         Grid.Row="0" Grid.Column="0"
+         Text="Dish Name"
+         FontSize="12"
+         FontWeight="Medium"/>
+
+            <TextBox
+      
+        Name="upd_dishName" Grid.Row="1" Grid.Column="0"/>
+
+            <TextBlock
+        
+        
+        Grid.Row="0" Grid.Column="1"
+        Text="Available"
+        FontSize="12"
+        FontWeight="Medium" 
+        Margin="20 0 20 0"/>
+            <CheckBox 
+        x:Name="upd_dishAvl"
+        HorizontalAlignment="Center"
+        Grid.Row="1" Grid.Column="1"/>
+            <TextBlock 
+     
+        
+        Grid.Row="0" Grid.Column="2"
+        Text="Price"
+        FontSize="12"
+        FontWeight="Medium"
+        />
+            <TextBox 
+      
+        Name="upd_dishPrice" Grid.Row="1" Grid.Column="2"/>
+            
+            <Button Grid.Column="3" Grid.RowSpan="2" Margin="20 0 0 0"
+        x:Name="btn_updDishDet"
+    Style="{DynamicResource ResourceKey=RoundButton}"
+Content="Update"
+Height="30"
+Width="60"
+Background="Orange"
+Click="updDishDet_Click"/>
+        </Grid>
+
+
+        <Button Margin="0 20 0 0"
+                Visibility="Collapsed"
+        x:Name="btn_wantToAddDishDet"
+    Style="{DynamicResource ResourceKey=RoundButton}"
+Content="Add dish"
+Height="30"
+Width="60"
+Background="Orange"
+Click="wantToAddDishDet_Click"/>
+
+        <Grid x:Name="grid_addDishDet"
+    HorizontalAlignment="Center" Margin="0 20 0 0" Visibility="Collapsed">
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock 
+       
+         Grid.Row="0" Grid.Column="0"
+         Text="Dish Name"
+         FontSize="12"
+         FontWeight="Medium"/>
+
+            <TextBox
+      
+        Name="add_dishName" Grid.Row="1" Grid.Column="0"/>
+
+            <TextBlock
+        
+        
+        Grid.Row="0" Grid.Column="1"
+        Text="Available"
+        FontSize="12"
+        FontWeight="Medium" 
+        Margin="20 0 20 0"/>
+            <CheckBox 
+        x:Name="add_dishAvl"
+        HorizontalAlignment="Center"
+        Grid.Row="1" Grid.Column="1"/>
+            <TextBlock 
+     
+        
+        Grid.Row="0" Grid.Column="2"
+        Text="Price"
+        FontSize="12"
+        FontWeight="Medium"
+        />
+            <TextBox 
+      
+        Name="add_dishPrice" Grid.Row="1" Grid.Column="2"/>
+
+            <Button Grid.Column="3" Grid.RowSpan="2" Margin="20 0 0 0"
+        x:Name="btn_addDishDet"
+    Style="{DynamicResource ResourceKey=RoundButton}"
+Content="Add"
+Height="30"
+Width="60"
+Background="Orange"
+Click="addDishDet_Click"/>
+        </Grid>
+    </StackPanel>
+</Window>
